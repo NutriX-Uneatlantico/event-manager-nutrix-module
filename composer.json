@@ -1,0 +1,25 @@
+{
+    "name": "nutrix/event-manager-module",
+    "description": "Event Manager Module",
+    "type": "laravel-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "NutriX",
+            "email": "equipo.nutrix@uneatlantico.es"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\EventManager\\Providers\\EventManagerServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\EventManager\\": ""
+        }
+    }
+}

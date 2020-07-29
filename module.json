@@ -1,0 +1,13 @@
+{
+    "name": "EventManager",
+    "alias": "eventmanager",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\EventManager\\Providers\\EventManagerServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
